@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="winner-overlay">
+      <div class="winner-box">
+         <span class="winner">Player x wins!</span>
+         <button class="new-game">New Game</button>
+      </div>
+   </div>
+   
+   <div class="main-container">
+      <div class="score-container">
+         <span>Player 1 Score: <span class="scorep1">0</span></span>
+         <span>Player 2 Score: <span class="scorep2">0</span></span>
+         <button class="reset">Reset Score</button>
+         <span class="player-turn"></span>
+      </div>
+
+      <div class="grid-container">
+         <div class="square1" id="grid"></div>
+         <div class="square2" id="grid"></div>
+         <div class="square3" id="grid"></div>
+         <div class="square4" id="grid"></div>
+         <div class="square5" id="grid"></div>
+         <div class="square6" id="grid"></div>
+         <div class="square7" id="grid"></div>
+         <div class="square8" id="grid"></div>
+         <div class="square9" id="grid"></div>
+      </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
