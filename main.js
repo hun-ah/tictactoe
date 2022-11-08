@@ -105,7 +105,6 @@ function updateScoreP2() {
 }
 
 function checkForTie(square) {
-   // write logic for if last move causes either player to win
    let hasWon = grid.getAttribute('hasWon')
    if (hasWon === 'true') {
       return
