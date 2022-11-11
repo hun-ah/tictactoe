@@ -36,8 +36,6 @@ container, there is less random addition of margins/padding because I didn't lay
 
 Overall, I am very pleased with the product, despite some of its flaws!
 
-https://user-images.githubusercontent.com/103898493/201426297-18b7fdf3-22e3-44d7-a219-6b1fcc63f1c3.mov
-
 ## Optimizations:
 Like mentioned earlier, I intially had both the X's and O's the same colour. I decided it would be better visually to have them be different colours and
 feel like this elevates my game a little more than the first iteration I had made. I utilized local storage to keep track of each player's score, which 
