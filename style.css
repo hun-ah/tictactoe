@@ -64,26 +64,41 @@ body {
    padding-bottom: 1px;
 }
 
+.score-container>span:first-child {
+   color: #1c89ff;
+   text-shadow:
+      0 0 7px #1c89ff,
+      0 0 10px #000000,
+      0 0 21px #1c89ff,
+      0 0 42px #1c89ff;
+}
+
 .score-container>span+span {
    padding-top: 0px;
+   color: #ff00d0;
+   text-shadow:
+      0 0 7px #ff00d0,
+      0 0 10px #000000,
+      0 0 21px #ff00d0,
+      0 0 82px #ff00d0;
 }
 
 button {
-   border: 3px solid #0d3968;
+   /* border: 3px solid #0d3968; */
+   border: none;
+   background: #1c89ff;
    border-radius: 5px;
    width: 200px;
    margin: 20px 0;
    padding: 12px;
    cursor: pointer;
-   color: #1c89ff;
-   background: black;
-   text-shadow:
-      0 0 7px #000000,
-      0 0 10px #0d3968,
-      0 0 21px #0d3968;
-   /* 0 0 42px #1c89ff; */
-   box-shadow: inset 0 0 0.7em 0 #0d3968, 0 0 0.7em 0 #0d3968;
+   color: #0d3968;
+   opacity: 0.8;
    font-family: 'Anton', sans-serif;
+}
+
+button:hover {
+   opacity: 1;
 }
 
 button::before {

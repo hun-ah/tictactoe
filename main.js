@@ -29,10 +29,12 @@ class Player {
       this.name = name;
    }
 
-   displayMarker(marker) {
+   displayMarker(marker, color, textshadow) {
       let value = event.target.classList.value
       if (value.includes('square')) {
          document.querySelector(`.${value}`).innerHTML = marker
+         document.querySelector(`.${value}`).style.color = color
+         document.querySelector(`.${value}`).style.textShadow = textshadow
          console.log(value)
       }
    }
@@ -67,7 +69,7 @@ function playerMove() {
          alert('Pick an empty square')
          return
       } else {
-         player2.displayMarker('O')
+         player2.displayMarker('O', '#ff00d0', '0 0 20px #ff00d0')
          grid.setAttribute('playerTurn', 'player1')
       }
       document.querySelector('.player-turn').innerHTML = 'It\'s Player 1\'s turn'
