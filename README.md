@@ -18,10 +18,11 @@ need, including displaying an X or O on the screen, switching players, checking 
 went along, realizing I would need to add in some additional behaviours to the program. 
 I knew I would need some click events and created those accordingly. 
 
-I really wanted to try and program this game with OOP in mind. I created a class of Player and a constructor function that would allow me to create both
-a Player 1 and Player 2 object, that shared a displayMarker method. I found this to be very helpful when I was trying to change the colour of the O to be 
-pink and have a pink text shadow on it, as all I had to do was pass in a few arguments. I decided to change the colour of the O at the end of the project 
-and I found that I only had to add a couple bits of code and knew that I wouldn't be breaking something else in my program by making these changes. 
+I really wanted to try and program this game with some OOP in mind (it is my goal to build more and more of my programs using OOP). I created a class of 
+Player and a constructor function that would allow me to create both a Player 1 and Player 2 object, that shared a displayMarker method.
+I found this to be very helpful when I was trying to change the colour of the O to be pink and have a pink text shadow on it, as all I had to do was pass
+in a few arguments. I decided to change the colour of the O at the end of the project and I found that I only had to add a couple bits of code and knew 
+that I wouldn't be breaking something else in my program by making these changes. 
 
 I tried my best to keep each piece of behaviour in a single function. I feel like this kept the code looking quite organized and clean. I really realized
 in this project how having local variables comes in handy and being able to reuse the same variable name in different functions, without running the risk
